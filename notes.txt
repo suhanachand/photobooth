@@ -1,0 +1,5 @@
+okay so the basic plan of this wesbite is to be an online photobooth that works 
+similarly where it has a displayy of the camara sees and once you start the photo 
+clicking it will take photos in 20 second intervals for a total of 3 photos. then 
+you can pick a template of your photo and save it as a pdf in the end, the design 
+of the app would follow a white/black doodle design to be cute and simple. 
