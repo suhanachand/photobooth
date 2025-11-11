@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+video {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+}
+
+#preview img {
+    margin-top: 10px;
+    width: 400px;
+    height: 300px;
+    border: 2px solid #000;
+}
