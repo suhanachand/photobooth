@@ -40,7 +40,15 @@
                 <div class="templates">
                     <h3>select template</h3>
                     <label class="radioRow"><input type="radio" name="template" value="strip" checked>vertical photostrip</label>
+                    <label class="radioRow"><input type="radio" name="template" value="row" checked>horizontal photostrip</label>
+                    <label class="radioRow"><input type="radio" name="template" value="collage" checked>collage photostrip</label>
                     
+                    <div class="templatePreview" id="templatePreview">Preview will show here after photos</div>
+
+                    <div class="actionRow">
+                        <button id="renderBtn" class="btn" disabled>Render Preview</button>
+                        <button id="downloadBtn" class="btn primary" disabled>Download PDF</button>
+                    </div>
                 </div>
             </aside>
         </section>
