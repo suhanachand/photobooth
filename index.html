@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,intial-scale=1"/>
+    <title>doodlebooth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <header class="top">
+            <h1>digital doodlebooth</h1>
+            <p class="subtitle">3 shots | 20s apart | cute doodle templates | export pdf</p>
+        </header>
+
+        <section class="stage">
+            <div class="camera-card">
+                <video id="preview" autoplay playsinline></video>
+
+                <div class="controls-row">
+                    <div class="left-controls">
+                        <button id="startBtn" class="btn primary">start photobooth</button>
+                        <button id="retakeBtn" class="btn" disabled>retake</button>
+                        <button id="clearBtn" class="btn" disabled>clear</button>
+                    </div>
+                    <div class="status">
+                        <div id="countdown" class="count">-</div>
+                        <div class="shots">shots:<span id="shotsTaken">0</span>/3</div>
+                    </div>
+                </div>
+
+                <div id="statusText" class="statusText">ready- allow camera</div>
+            </div>
+
+            <aside class="side">
+                <div class="thumbs" id="thumbs">
+                    <div class="emptyThumb">no photos yet</div>
+                </div>
+
+                <div class="templates">
+                    <h3>select template</h3>
+                    <label class="radioRow"><input type="radio" name="template" value="strip" checked>vertical photostrip</label>
+                    
+                </div>
+            </aside>
+        </section>
+    </main>
+</body>
+</html>
